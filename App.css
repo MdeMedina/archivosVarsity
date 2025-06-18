@@ -13,6 +13,54 @@
   }
 }
 
+.varsity-wizard * {
+  box-sizing: border-box;
+}
+
+.varsity-wizard .row {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.varsity-wizard .col,
+.varsity-wizard [class*="col-"] {
+  flex: 0 0 auto;
+  max-width: none;
+}
+
+.varsity-wizard .col-auto {
+  width: auto !important;
+  flex: 0 0 auto !important;
+}
+
+.varsity-wizard .btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.2;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.varsity-wizard .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.varsity-wizard input.form-control {
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 0;
+  height: auto;
+  box-shadow: none;
+  outline: none;
+}
+
+.varsity-wizard input.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
 
 .form-control:focus {
   outline: none;
