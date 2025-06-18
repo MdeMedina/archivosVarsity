@@ -29,18 +29,19 @@
   max-width: none;
 }
 
-.varsity-wizard .col-auto {
-  width: auto !important;
-  flex: 0 0 auto !important;
-}
-
-.varsity-wizard .btn {
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.2;
-  border-radius: 0;
-  box-shadow: none;
-}
+  .varsity-wizard .btn {
+    width: auto !important;
+    max-width: none !important;
+    padding: 6px 10px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .varsity-wizard .col-auto {
+    flex: 0 0 auto !important;
+    width: auto !important;
+  }
 
 .varsity-wizard .btn:focus {
   outline: none;
