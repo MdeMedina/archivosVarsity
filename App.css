@@ -22,10 +22,39 @@
 
 .varsity-font {
   font-family: 'VarsityFont', sans-serif;
+    font-size: 80px;
+  color: #1c3557; /* Contorno (gold) */
+  -webkit-text-stroke: 1px #872D35; /* Relleno (granate) */
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .bodyColors:hover {
   cursor:pointer
+}
+
+.btn-size {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #8a8d91;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #4d5057;
+  font-weight: 400;
+  font-size: 14px;
+  min-width: 42px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-size:hover {
+  cursor: pointer;
+  background-color: #e5e5e5;
+}
+
+.btn-size.selected {
+  background-color: #6c757d; /* gris oscuro */
+  color: white;
+  border-color: transparent;
 }
 
 .form-control:focus {
