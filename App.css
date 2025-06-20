@@ -13,55 +13,20 @@
   }
 }
 
-.varsity-wizard * {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'VarsityFont';
+  src: url('https://mdemedina.github.io/archivosVarsity/fuenteModelo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.varsity-wizard .row {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
+.varsity-font {
+  font-family: 'VarsityFont', sans-serif;
 }
 
-.varsity-wizard .col,
-.varsity-wizard [class*="col-"] {
-  flex: 0 0 auto;
-  max-width: none;
+.bodyColors:hover {
+  cursor:pointer
 }
-
-  .varsity-wizard .btn {
-    width: auto !important;
-    max-width: none !important;
-    padding: 6px 10px;
-    font-size: 14px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .varsity-wizard .col-auto {
-    flex: 0 0 auto !important;
-    width: auto !important;
-  }
-
-.varsity-wizard .btn:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.varsity-wizard input.form-control {
-  font-size: 14px;
-  padding: 6px 10px;
-  border-radius: 0;
-  height: auto;
-  box-shadow: none;
-  outline: none;
-}
-
-.varsity-wizard input.form-control:focus {
-  box-shadow: none;
-  outline: none;
-}
-
 
 .form-control:focus {
   outline: none;
