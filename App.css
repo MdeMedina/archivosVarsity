@@ -20,6 +20,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Varsity';
+  src: url('https://mdemedina.github.io/archivosVarsity/fuenteModelo.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fancy';
+  src: url('https://mdemedina.github.io/archivosVarsity/cursiva.ttf') format('truetype');
+}
+
 .varsity-font {
   font-family: 'VarsityFont', sans-serif;
     font-size: 80px;
