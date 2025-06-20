@@ -74,6 +74,14 @@
   color: white;
 }
 
+.tooltip {
+  box-shadow: none !important;
+}
+
+.tooltip .tooltip-arrow::before {
+  box-shadow: none !important;
+}
+
 .App-link {
   color: #61dafb;
 }
